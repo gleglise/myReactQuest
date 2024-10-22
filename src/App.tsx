@@ -1,5 +1,5 @@
 import "./App.css";
-import MyTitle from "./components/MyTitle";
+// import MyTitle from "./components/MyTitle";
 import PokemonCard from "./components/PokemonCard";
 function App() {
   return (

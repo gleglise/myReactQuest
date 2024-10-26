@@ -8,12 +8,16 @@ interface NavBarProps {
   pokemonList: Pokemon[];
 }
 function NavBar({ pokemonIndex, setPokemonIndex, pokemonList }: NavBarProps) {
-  const handleClick = () => {
-    setPokemonIndex(pokemonIndex + 1);
-  };
-  const handleClick2 = () => {
-    setPokemonIndex(pokemonIndex - 1);
-  };
+  //   const handleClick = () => {
+  //     setPokemonIndex(pokemonIndex + 1);
+  //   };
+  //   const handleClick2 = () => {
+  //     setPokemonIndex(pokemonIndex - 1);
+  //   };
+  const Pikapika = pokemonList[pokemonIndex].name;
+  if (Pikapika === "pikachu") {
+    alert("pika pikachu !!!");
+  }
 
   return (
     <>
